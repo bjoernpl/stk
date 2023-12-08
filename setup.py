@@ -21,6 +21,6 @@ setup(
         "numpy",
         "torch",
         # TODO(tgale): Update this to a stable Triton release once the software pipelining feature is supported.
-        "triton @ git+https://github.com/openai/triton.git@787cdff#egg=triton&subdirectory=python"
+        "triton"
     ],
 )
